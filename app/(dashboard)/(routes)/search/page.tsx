@@ -3,7 +3,7 @@ interface ISearchPageProps { };
 
 const SearchPage: FC<ISearchPageProps> = (props) => {
     return (
-        <div>
+        <div className="p-7">
             search
         </div>
     );

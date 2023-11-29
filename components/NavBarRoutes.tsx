@@ -28,7 +28,7 @@ export const NavBarRoutes: FC<INavBarRoutesProps> = (props) => {
             ) :
                 (
                     <Link href="/teacher/courses">
-                        <Button size='sm' variant='ghost'>Teacher Mode</Button>
+                        <Button size='sm'>Teacher Mode</Button>
                     </Link>
                 )
             }
